@@ -1,7 +1,7 @@
 <?php
 ob_start();
-ini_set('date.timezone','Europe/UK');
-date_default_timezone_set('Europe/UK');
+ini_set('date.timezone','Europe/London');
+date_default_timezone_set('Europe/London');
 session_start();
 
 require_once('initialize.php');
